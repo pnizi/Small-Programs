@@ -56,30 +56,30 @@ public class Project1_PNizi
 	{
 		long outputA=a, outputB=b;
 		long x = 0, y = 1, lastx = 1, lasty = 0, temp, tempQ=0;
-        while (b != 0)
-        {
-        	//calculate quotient and remainder
-            long q = a / b;
-            long r = a % b;
-            //update values
-            a = b;
-            b = r;
+		 while (b != 0)
+		 {
+        		//calculate quotient and remainder
+        		  long q = a / b;
+        		  long r = a % b;
+        		  //update values
+        		  a = b;
+        		 b = r;
             
-            //update quotient 
-            if(r!=0)
-            	tempQ=r;
-            //calculate next x
-            temp = x;
-            x = lastx - q * x;
-            lastx = temp;
-            //calculate next y
-            temp = y;
-            y = lasty - q * y;
-            lasty = temp;            
-        }
-        System.out.println("gcd("+outputA+", "+outputB+")"+" = "+tempQ+
+            		//update quotient 
+        		  if(r!=0)
+            		tempQ=r;
+        		 //calculate next x
+        		  temp = x;
+            		x = lastx - q * x;
+            		lastx = temp;
+        		 //calculate next y
+        		 temp = y;
+        		 y = lasty - q * y;
+            		lasty = temp;            
+		 }
+        	System.out.println("gcd("+outputA+", "+outputB+")"+" = "+tempQ+
         		", and "+ tempQ +" = ("+ lastx+")("+outputA+") + ("+lasty+")("+outputB+").");
-        return tempQ;
+        	return tempQ;
 	}
 	
 	public static BigInteger extendedEuclidGCDBigInt(BigInteger a, BigInteger b, BigInteger []xy)
