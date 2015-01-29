@@ -56,6 +56,7 @@ public class Project1_PNizi
 	{
 		long outputA=a, outputB=b;
 		long x = 0, y = 1, lastx = 1, lasty = 0, temp, tempQ=0;
+
         while (b != 0)
         {
         	//calculate quotient and remainder
@@ -96,8 +97,11 @@ public class Project1_PNizi
 		
         while (!b.equals(zero))
         {
+
         
         	//calculate quotient and remainder
+	 	//calculate quotient and remainder
+
             BigInteger q = a.divide(b);
             BigInteger r = a.mod(b);
             //update values

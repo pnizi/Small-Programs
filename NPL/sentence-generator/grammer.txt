@@ -10,27 +10,27 @@
 1	Noun	Adj Noun
 
 1	Verb	ate
-1	Verb	wanted
+2	Verb	wanted
 1	Verb	kissed
-1	Verb	understood
+3	Verb	understood
 1	Verb	pickled
 
-1	DT	the
+2	DT	the
 1	DT	a
 1	DT  every
 
 1	Noun	president
-1	Noun	sandwich
+2	Noun	sandwich
 1	Noun	pickle
-1	Noun	chief of staff
+3	Noun	chief of staff
 1	Noun	floor
 
 1	Adj	fine
-1	Adj	delicious
+2	Adj	delicious
 1	Adj	perplexed
-1	Adj	pickled
+3	Adj	pickled
 
-1	Prep    with
+2	Prep    with
 1	Prep	on
 1	Prep	under
-1	Prep    in
+3	Prep    in
