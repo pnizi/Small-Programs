@@ -1,8 +1,3 @@
-__author__ = 'Piotr'
-
-#To run: call the create(num) method in the python shell
-#Tried using the post on piazza to make it runnable from cmd line but had
-#no success.
 import random
 import re
 
